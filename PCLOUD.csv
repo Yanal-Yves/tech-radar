@@ -1,0 +1,154 @@
+name,ring,quadrant,isNew,description,priority
+.net - CommandLineParser,adopt,languages-and-frameworks,FALSE,Write console application with complex parameter scheme. This library handle the parsing of parameters.,
+.net - CsvHelper,adopt,languages-and-frameworks,FALSE,CSV file generator library,
+.net - Hangfire,adopt,languages-and-frameworks,FALSE,Execute background task in the data center.,
+.net - IbanNet,adopt,languages-and-frameworks,FALSE,International Bank Account Numbe (IBAN) parser and validation,
+.net - IdentityServer,adopt,languages-and-frameworks,FALSE,Implement an OIDC server,
+.net - MailJet.Api,adopt,languages-and-frameworks,FALSE,"Services that simplify sending of emails and SMS.
+Provides a message generator. We only send the data of variable part of the emails",
+.net - Moq,adopt,languages-and-frameworks,FALSE,Moq method in Unit test in order to really test a method without it dependencies,
+semver,adopt,Techniques,TRUE,Semantic versionning (<a>https://semver.org/</a>),
+.net - Serilog,adopt,languages-and-frameworks,TRUE,Structured logging .net library,
+.net - StyleCop Analyser,adopt,languages-and-frameworks,FALSE,Effectively respect coding standard by detecting mistakes,
+.net 6 & C#,adopt,languages-and-frameworks,FALSE,C# language used in PCLOUD backend,
+.net Inject dependencies in Unit tests,adopt,Techniques,FALSE,"Sur le code réel (vs code de test) les dépendances sont injectées grâce à l'injection de dépendance. Pour l'écriture des tests, on injecte manuellement les dépendances. Comment faire pour injecter les dépendance (Mock) comme sur le code réel ?",
+AWS - Cloud formation,adopt,Platforms,FALSE," Infrastructure as code :
+<ul>
+  <li>- Permet de documenter la platforme (le code est une documentation)</li>
+  <li>- Permet de reconstruire la platforme si on la casse accidentellement</li>
+  <li>- Réduction des coût en développement (destruction de toutes les ressources la nuit et les week-ends)</li>
+</ul>",
+AWS - Certificate Manager,adopt,Platforms,FALSE,,
+AWS - Cloudwatch,adopt,Platforms,FALSE,,
+AWS - Code deploy,adopt,Platforms,FALSE,,
+AWS - EC2,adopt,Platforms,FALSE,,
+AWS - IAM,adopt,Platforms,FALSE,,
+AWS - RDS (PostgreSQL),adopt,Platforms,FALSE,,
+AWS - S3,adopt,Platforms,FALSE,,
+AWS - System Manager,adopt,Platforms,FALSE,,
+AWS - VPC,adopt,Platforms,FALSE,,
+AWS - VPC,adopt,Platforms,FALSE,,
+AWS - AWSSDK.S3,adopt,languages-and-frameworks,FALSE,,
+Azure DevOps - Boards,adopt,Platforms,FALSE,"<ul>
+<li>Work items</li>
+<li>Back logs</li>
+<li>Sprints</li>
+<li>Queries</li>
+</ul>",
+Azure DevOps - Repos,adopt,Platforms,FALSE,"<ul>
+<li>git</li>
+<li>Pull requests</li>
+<ul>",
+Azure DevOps - Pipelines,adopt,Platforms,FALSE,"<ul>
+<li>Pipelines</li>
+<li>Releases</li>
+</ul>",
+Azure DevOps - Artifacts,adopt,Platforms,FALSE,"<ul>
+<li>Proxy public repositories (Nuget, NPM and Pypi)</li>
+<li>Private feed for internal use (Nuget)</li>
+</ul>",
+DataDog - log search,adopt,Platforms,FALSE,,
+Angular - dump and smart component,adopt,Techniques,FALSE,,
+.net - EF Core,adopt,languages-and-frameworks,FALSE,.net Microsoft ORM (Object to Relational Mapping),
+git flow scripts,adopt,Tools,FALSE,"Home made helper scripts for git flow
+Simplify and ease dev lifes when dev use git in the particular case of git flow. Thus avoid dev mistakes.
+",
+GNU/Linux CentOS7,adopt,Platforms,FALSE,Operating système used in production,
+Immutable server,adopt,Techniques,FALSE,,
+JS - @angular/flex-layout,adopt,languages-and-frameworks,FALSE,,
+JS - @angular/material,adopt,languages-and-frameworks,FALSE,,
+JS - @datadog/browser-logs,adopt,languages-and-frameworks,FALSE,,
+JS - angular,adopt,languages-and-frameworks,FALSE,,
+JS - angular-imask,adopt,languages-and-frameworks,FALSE,,
+JS - angular-oauth2-oidc,adopt,languages-and-frameworks,FALSE,,
+JS - chart.js,adopt,languages-and-frameworks,FALSE,,
+JS - moment-timezone,adopt,languages-and-frameworks,FALSE,,
+JS - rxjs,adopt,languages-and-frameworks,FALSE,,
+Log agregation for continuous operation,adopt,Techniques,FALSE,,
+Nginx,adopt,Platforms,FALSE,,
+prettier,adopt,Tools,FALSE,,
+eslint,adopt,Tools,FALSE,,
+Semantic logging,adopt,Techniques,TRUE,"Give sence to the log level and log the right way.
+https://dev.azure.com/prothesis-dental-solutions/ProthesisDentalSolutions/_wiki/wikis/Prothesis-Dental-Software.wiki/221/Logging-the-right-way",
+.net - C# - FluentAssertions,trial,languages-and-frameworks,FALSE,"- Simplifie l'écriture, la lecture et le debug des tests.
+https://www.youtube.com/watch?v=WybRJ_LKGb4",99
+Code coverage - sonarqube,trial,languages-and-frameworks,FALSE,,
+JS - jasmine - Test unitaires UI,trial,languages-and-frameworks,FALSE,"How to test Angular components, directives and deal with dependencies. How to not break unit test each time a dependancy is added or removed ?",1
+AWS - SNS - SQS,trial,Platforms,FALSE,Async communication accros application inside the data center.,4
+OpenApi - Swagger,trial,languages-and-frameworks,FALSE,"Mandatory to publish PCLOUD API.
+<ul>
+<li>Generate TS ViewModels from OpenApi description.</li>
+<li>Publish a documentation of our API.</li>
+<li>Restrict access to registered memebers.</li>
+</ul>
+",3
+DokuWiki,assess,Platforms,FALSE,"On cherche un système permettant de diffuser nos documentations.
+<ul>
+<li>- Moteur de recherche. => oui</li>
+<li>- Utilisation d'un compte Prothesis Cloud pour pouvoir soumettre des modifications de la doc. Le système propose un flux de validation des modifications. => Pluging OAuth à tester.</li>
+<li>- Partie privée pour les admin et public pour le reste du monde. => oui</li>
+<li>- Personalisation du Thème pour PCloud. => oui</li>
+<li>- Edtion en Markdown et wysywig sync. => via plugin à tester</li>
+<li>- Thème claire et sombre => via plugin à tester.</li>
+<li>- Télécharger le PDF => via plugin à tester.</li>
+<li>- Permet la traduction des pages. => via plugin à tester.</li>
+<li>- Paratageable sur les réseaux sociaux => oui</li>
+<li>- Versionning des pages => oui</li>
+<li>- Possiblité de migrer vers un autre wiki (exporter les pages dans un format standard) => markdown ?. Les documents doivent être extractible facilement</li>
+<li>- Mise à jour facile.</li>
+</ul>",
+JS - Angular - traduction,assess,languages-and-frameworks,FALSE,ex: @ngx-translate/core,99
+Tests fonctionnels,assess,Techniques,FALSE,Limiter les régressions en production,1
+.net - C# - SignalR,hold,languages-and-frameworks,FALSE,"Pourvoir faire des notifications push. Intégration avec hangfire (https://docs.hangfire.io/en/latest/background-processing/tracking-progress.html)
+Utile pour les plannings de livraison et de fabrication (fin 2023)",2
+.net - C# - Interfaces - Implémentation par défaut,hold,languages-and-frameworks,FALSE,Limiter la duplication de code quand on veut implémenter une même méthode dans prlusieurs repo/service/controleur sans faire de copier coller,
+.net - C# - Source generator,hold,languages-and-frameworks,FALSE,"Nouvelle fonctionalité de C# : https://devblogs.microsoft.com/dotnet/introducing-c-source-generators/
+A quoi cela pourrait-il nous servir ?",
+Hosting - processor ARM,hold,Platforms,FALSE,Utilisation de processeur ARM afin de réduire les coûts de hosting (30% moins cher ?),
+AWS lambda,hold,Platforms,FALSE,- pourait éviter de mettre en place un orchestrateur de conteneur dans l'optique de la mise en place de micro service ,
+GraphQL,hold,languages-and-frameworks,FALSE,Graph QL nous permetterait-il de développer nos API plus vite ?,
+IdentityServer - PAT,hold,Techniques,FALSE,Comment offrir la fonctionnalité de Personal Access Token à nos clients ? - http://ideasof.andersaberg.com/development/personal-access-tokens-with-identityserver,99
+API throtling,hold,Techniques,FALSE,"Limit the number of hit per second per customer/user to avoid deny of service because a customer introduced a bug in his scripts
+",4
+JS - How to handle money ?,hold,Techniques,FALSE,"Handle money properly and avoind rounding issue
+https://medium.com/@magnusjt/how-to-handle-money-in-javascript-b954d612373c
+ex: (2090.5 * 8.61).toFixed(2) => 17999.20 // Should be 17999.21
+https://dev.azure.com/prothesis-dental-solutions/ProthesisDentalSolutions/_wiki/wikis/Prothesis-Dental-Software.wiki/283/2022-11-25-Money-with-Javascript ",
+JS - Storybook,hold,Tools,FALSE,"Storybook is an open-source tool that helps you develop UI components in isolation. It runs in your codebase but separately from your application, so it works like a sandbox, allowing developers to not get distracted by incomplete APIs, flaky data, and other external dependencies. It integrates with frameworks like React, Vue, Svelte, Angular, and others.
+
+Think of Storybook as an actual book, with an index of pages that link to your UI components. Every component has stories to tell about itself, and these stories represent the different UI states of that component. Regardless of the situation, even if you're offline, you will be able to access that page and easily find and play around with the components.
+
+Due to its productivity and collaboration advantages, Storybook is used by more than 30,000 open source projects, especially component libraries. However, many tech companies, such as Airbnb, Atlassian, and JetBrains, are among its users.",
+Kafka,hold,Platforms,FALSE,Communication asynchrone entre application dans le data center,
+Kubernetes,hold,Platforms,FALSE,"Reduce a lot time to market when new hosting and devops deployment pipeline is needed.
+Better resource mutualization on the datacenter.
+Reproductible environement in Production/Stage/Test",
+PostgreSQL - badger,hold,Tools,FALSE,"<ul>
+<li>Savoir comment réagire en cas de lenteur en production lié à la base de données</li>
+<li>Etre capable d'identifier les slow queries</li>
+<li><a>https://aws.amazon.com/blogs/database/optimizing-and-tuning-queries-in-amazon-rds-postgresql-based-on-native-and-external-tools/</a></li>
+<li><a>https://pgbadger.darold.net/</a></li>",5
+PWA - Progressive Web App,hold,Platforms,FALSE,"<ul>
+<li>Permettre l'installation de Prothesis Cloud</li>
+<li>Permettre une utilisation en mode déconnectée</li>
+</ul>
+
+https://www.digitalocean.com/community/tutorials/how-to-build-progressive-web-apps-with-angular",99
+TS - TsDoc,hold,Tools,FALSE,Format de commentaire permettant la génération de doc du code Typescrit,
+VsCode for C#,hold,Tools,FALSE,N'utiliser qu'un seul IDE qui est X platform et qui marcherait sous Linux et Mac M1 (ARM),
+Plateform de paiement marketplace,hold,Platforms,FALSE,Permettre au cabinet dentaire de régler les factures émisent par les labos,6
+Etude des formats CAD (exocad...),hold,Platforms,TRUE,"Intégration du flux numérique :
+<ul>
+<li>Import data from Exocad to a new production flow/work form (sync ?)</li>
+<li>Export an Order/work form to an Exocad XML</li>
+</ul>",
+Nouvelle librairie de Charts,hold,languages-and-frameworks,TRUE,,
+PostgreSQL/EF core - Ordre de tri naturel,hold,Techniques,TRUE,,
+Angular - Warn user of unsaved changes before leaving,hold,Techniques,TRUE,,
+Angular - Drag'n drop multidimensionnel et avec scroll de page,hold,Techniques,TRUE,,
+"Acquisition d'images (appareil photo smartphone, webcam, scanner...)",hold,languages-and-frameworks,TRUE,,
+Stockage de fichiers,hold,Platforms,TRUE,"<p>Sockage de fichier bas coût dans le cloud. Sur AWS, c'est S3 + coût de bande passante sortante. Peut-on espérer mieux avec une solution hybride AWS + ?</p>",
+IdentityServer - Mutliple domains,hold,Techniques,TRUE,<p>Utilisation d'identity server sur un autre domaine</p>,
+IdentityServer - PCSoft client,hold,languages-and-frameworks,TRUE,<p>Ouverture de l'API à Dentalink</p>,
+Centos replacement,hold,Platforms,TRUE,"Centos is reaching end of life and the centos project is not focussing anymore on stable production distribution but a Redhat upstream.
+Thus we need to find a replacement : RockyLinux (suggested by Pictime) or Debian (Yanal's favorite)",
